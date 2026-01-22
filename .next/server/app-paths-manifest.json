@@ -1,7 +1,13 @@
 {
-  "/page": "app/page.js",
+  "/(site)/(auth)/signin/page": "app/(site)/(auth)/signin/page.js",
+  "/(site)/(auth)/forgot-password/page": "app/(site)/(auth)/forgot-password/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/(site)/contact/page": "app/(site)/contact/page.js",
-  "/(site)/documentation/page": "app/(site)/documentation/page.js",
+  "/(site)/(auth)/signup/page": "app/(site)/(auth)/signup/page.js",
+  "/(site)/blogs/page": "app/(site)/blogs/page.js",
   "/(site)/properties/properties-list/page": "app/(site)/properties/properties-list/page.js",
-  "/(site)/blogs/page": "app/(site)/blogs/page.js"
+  "/(site)/documentation/page": "app/(site)/documentation/page.js",
+  "/page": "app/page.js",
+  "/(site)/properties/properties-list/[slug]/page": "app/(site)/properties/properties-list/[slug]/page.js",
+  "/(site)/blogs/[slug]/page": "app/(site)/blogs/[slug]/page.js"
 }
